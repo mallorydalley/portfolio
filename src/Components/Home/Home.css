@@ -1,18 +1,15 @@
 .container-fluid{
-    padding: 3% 15%;
+    padding: 5% 15%;
     background-color: peachpuff;
 }
 
 .landing{
-    padding: 3% 5%;
+    padding: 7% 5%;
     background-color: plum;
     font-family: Montserrat;
+    height: 80%;
 }
 .hello{
-    /* font-size: 100px;
-    font-weight: 700;
-    background-color:#7fc4d1;
-    padding-bottom: 10px; */
     font-weight: 800;
     font-size: 155px;
 }
@@ -20,19 +17,33 @@
 .mallory-dalley{
     font-weight: 500;
     font-size: 50px;
-    /* font-size: 50px;
-    font-weight: 500;
-    background-color: aqua;
-    color: dodgerblue */
  }
 
 .profile-pic{
     height: 340px;
 }
 
+.colored-background{
+    background-color: lightsteelblue;
+    z-index: 1;
+    height: 350px;
+    width: 100%;
+    position: absolute;
+}
+
 .skill-icons{
     height: 150px;
     width: 150px;
+}
+
+.section-head{
+    font-weight: 800;
+    color: #5ec4d2;
+}
+
+.skill-section{
+    font-weight: 600;
+    color: #5ec4d2;
 }
 
 .dummy{
@@ -45,14 +56,45 @@
 }
 
 .skill-block{
-    background-color: beige;
-    padding: 20px;
+    background-color: white;
+    padding: 50px 30px;
     display: flex;
     justify-content: center;
 }
 
 .skills{
-    border: 1px solid coral;
+    background-color: #f9f9f9;
     flex-direction: column;
-    background-color: lightpink;
+    /* margin-top: 5%; */
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+}
+
+.marketing-skills{
+    border-radius: 15px 0px 0px 15px;
+    border: 2px solid lightgray;
+}
+
+.web-skills{
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.designer-skills{
+    border-radius: 0px 15px 15px 0px;
+    border: 2px solid lightgray;
+}
+
+@media screen and (max-width: 766px){
+    .marketing-skills{
+    border-radius: 15px 15px 0px 0px;
+}
+.web-skills{
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+    .designer-skills{
+    border-radius: 0px 0px 15px 15px;
+}
 }

@@ -5,7 +5,6 @@ function Contact(props) {
 
     return (
         <div>
-            Contact
             <ContactForm />
         </div>
     )
