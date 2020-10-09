@@ -13,9 +13,10 @@ function Home(props){
                 <h1 className="hello">Hello!</h1>
                 <h3 className="mallory-dalley">I'm Mallory Dalley</h3>
               </div>
-              <h6>
-                I'm a full stack web developer with experience in marketing and design
-              </h6>
+              <p>
+                I'm a full stack web developer with experience in marketing and
+                design
+              </p>
             </div>
 
             <div className="col-lg-6">
@@ -27,8 +28,16 @@ function Home(props){
           </div>
         </div>
 
-
-        <div className='colored-background'>Colored</div>
+        <div className="colored-background">
+          <div className="container intro-container">
+            <p className='intro'>
+              I started my career as a marketing generalist but gravitated
+              towards website and design work. I now focus my work on web
+              development but my dream job would be combining all three of the
+              fields I love{" "}
+            </p>
+          </div>
+        </div>
         <div className="container-fluid rounded skill-container">
           <div className="row skill-block">
             <div className="col-md-4 container skills marketing-skills d-flex align-items-center text-center">
@@ -38,9 +47,9 @@ function Home(props){
               />
               <h4 className="section-head">Marketing</h4>
               <p>
-                I value simple content structure, clean design patterns, and
-                thoughtful interactions.
+                Watching engagement and awareness increase is one of the most satisfying things in life
               </p>
+              <br />
               <h6 className="skill-section">Marketing Experience</h6>
               <p>
                 Digital Marketing
@@ -49,6 +58,7 @@ function Home(props){
                 <br /> Content
                 <br /> Search Engine Optimization (SEO)
               </p>
+              <br />
               <h6 className="skill-section">Marketing Tools</h6>
               <p>
                 MailChimp
@@ -67,7 +77,8 @@ function Home(props){
                 src="https://cdn0.iconfinder.com/data/icons/marketing-and-growth-line/64/marketing_advertising_megaphone_marketing_icon-512.png"
               />
               <h4 className="section-head">Full Stack Web Development</h4>
-              <p>I love coding from scratch and </p>
+              <p>I love coding a project from the ground up </p>
+              <br />
               <h6 className="skill-section">Languages I speak</h6>
               <p>
                 JavaScript
@@ -77,6 +88,7 @@ function Home(props){
                 <br /> HTML5
                 <br /> CSS3
               </p>
+              <br />
               <h6 className="skill-section">Dev Tools</h6>
               <p>
                 Bootstrap
@@ -97,7 +109,11 @@ function Home(props){
                 src="https://cdn0.iconfinder.com/data/icons/marketing-and-growth-line/64/marketing_advertising_megaphone_marketing_icon-512.png"
               />
               <h4 className="section-head">Design</h4>
-              <p>I love making anything from simple, elegant designs to vibrant, bold ones.</p>
+              <p>
+                I love making anything from simple, elegant designs to vibrant,
+                bold ones.
+              </p>
+              <br />
               <h6 className="skill-section">Things I enjoy designing</h6>
               <p>
                 UX
@@ -108,6 +124,7 @@ function Home(props){
                 <br /> Posters
                 <br /> Banners
               </p>
+              <br />
               <h6 className="skill-section">Design Tools</h6>
               <p>
                 Photoshop

@@ -26,9 +26,22 @@
 .colored-background{
     background-color: lightsteelblue;
     z-index: 1;
-    height: 350px;
+    height: 550px;
     width: 100%;
     position: absolute;
+}
+
+.intro-container{
+    /* background-color: lime; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    padding: 7% 15%;
+    text-align: center;
+    font-size: 25px;
 }
 
 .skill-icons{
@@ -41,9 +54,16 @@
     color: #5ec4d2;
 }
 
+
+
 .skill-section{
     font-weight: 600;
+    font-size: 18px;
     color: #5ec4d2;
+}
+
+p{
+    font-size: 18px;
 }
 
 .dummy{
@@ -57,15 +77,14 @@
 
 .skill-block{
     background-color: white;
-    padding: 50px 30px;
+    padding: 25% 30px 0px;
     display: flex;
     justify-content: center;
 }
 
 .skills{
-    background-color: #f9f9f9;
+    background-color: white;
     flex-direction: column;
-    /* margin-top: 5%; */
     padding: 15px;
     position: absolute;
     z-index: 2;
@@ -96,5 +115,14 @@
 }
     .designer-skills{
     border-radius: 0px 0px 15px 15px;
+}
+.skill-block{
+    padding: 65% 30px;
+}
+.colored-background{
+    height: 850px;
+}
+.intro{
+    padding: 25% 15%;
 }
 }
