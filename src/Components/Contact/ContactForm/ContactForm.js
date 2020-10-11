@@ -5,8 +5,8 @@ function ContactForm(props) {
 
     return (
 
-      <div class="contact-section my-5">
-        <div class="card">
+      <div class="contact-section my-5 container">
+        {/* <div class="card"> */}
           <div class="row">
             <div class="col-lg-8">
               <div class="card-body form">
@@ -128,7 +128,7 @@ function ContactForm(props) {
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
 }

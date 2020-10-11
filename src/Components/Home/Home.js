@@ -6,38 +6,42 @@ function Home(props){
 
     return (
       <div>
-        <div className="container-fluid">
-          <div className="landing row d-flex justify-content-center">
-            <div className="headline col-lg-6">
+        <div className="landing container-fluid">
+          {/* <div className="landing"> */}
+            <div className="col-md-6">
               <div className="headline-text">
                 <h1 className="hello">Hello!</h1>
                 <h3 className="mallory-dalley">I'm Mallory Dalley</h3>
               </div>
-              <p>
-                I'm a full stack web developer with experience in marketing and
+              <h5>
+                Full stack web developer with experience in marketing and
                 design
-              </p>
+              </h5>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-md-6 picture-side">
               <img
                 className="profile-pic "
                 src="https://ath2.unileverservices.com/wp-content/uploads/sites/8/2019/01/dark-brown-hair-color-mahogany-shutterstock.jpg"
               />
             </div>
-          </div>
+          {/* </div> */}
         </div>
 
-        <div className="colored-background">
-          <div className="container intro-container">
-            <p className='intro'>
-              I started my career as a marketing generalist but gravitated
-              towards website and design work. I now focus my work on web
-              development but my dream job would be combining all three of the
-              fields I love{" "}
+        
+          
+        <div className="container-fluid intro-container">
+          <p className='intro'>
+            I started my career as a marketing generalist but gravitated
+            towards website and design work. I now focus on web
+            development but my dream job would be combining all three of the
+            fields I love. If you'd like more details on more experience, check out my LinkedIn page.
             </p>
-          </div>
         </div>
+
+        <div className="colored-background"></div>
+  
+
         <div className="container-fluid rounded skill-container">
           <div className="row skill-block">
             <div className="col-md-4 container skills marketing-skills d-flex align-items-center text-center">

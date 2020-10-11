@@ -1,0 +1,23 @@
+.thumbnail-collection{
+    width: 100%;
+    /* background-color: lemonchiffon; */
+    margin-top: 3%;
+    /* display: flex;
+    justify-content: center; */
+    /* flex-direction: row; */
+}
+.portfolio-thumbnail{
+    height: 250px;
+    width: 350px;
+    border: 1px solid coral;
+    margin: 7%;
+    object-fit: cover;
+    box-shadow: 1px 1.5px 4px rgb(232, 232, 232);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.portfolio-thumbnail:hover{
+    background-color: red;
+    z-index: 2;
+}

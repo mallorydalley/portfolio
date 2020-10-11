@@ -1,4 +1,7 @@
 import React, {useState, useEffect} from 'react';
+import './Portfolio.css'
+import TaskBox from '../../assets/images/TaskBox.png'
+import FlashDrills from '../../assets/images/flashDrills.jpeg'
 
 function Portfolio(props) {
 
@@ -10,9 +13,7 @@ function Portfolio(props) {
               <div className="headline-text">
                 <h1 className="hello">Portfolio</h1>
               </div>
-              <p>
-                Take a look at some of my previous projects
-              </p>
+              {/* <h5>Take a look at some of my previous projects</h5> */}
             </div>
 
             <div className="col-lg-6">
@@ -24,7 +25,28 @@ function Portfolio(props) {
           </div>
         </div>
 
-        <div></div>
+        <div className="thumbnail-collection container-fluid">
+          <div className='row'>
+
+            <div className='col-md-6'>
+              <img className="portfolio-thumbnail" src={TaskBox} />
+            </div>
+
+            <div className='col-md-6'>
+              <img className="portfolio-thumbnail" src={FlashDrills} />
+            </div>
+
+            <div className='col-md-6'>
+              <img className="portfolio-thumbnail" src={FlashDrills} />
+            </div>
+
+            <div className='col-md-6'>
+              <img className="portfolio-thumbnail" src={FlashDrills} />
+            </div>
+              
+          </div>
+        </div>
+
       </div>
     );
 }

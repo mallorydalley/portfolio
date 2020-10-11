@@ -2,6 +2,11 @@
     font-family: Kaushan Script;
 }
 
+.navbar{
+    position: sticky;
+    box-shadow: 1px 1.5px 4px rgb(232, 232, 232);
+}
+
 
 /* .nav{
     height: 70px;
