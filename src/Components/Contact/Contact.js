@@ -9,7 +9,7 @@ function Contact(props) {
           <div className="landing row d-flex justify-content-center">
             <div className="headline col-lg-6">
               <div className="headline-text">
-                <h1 className="hello">Contact</h1>
+                <h1 className="header-text">Contact</h1>
               </div>
               <p>
                 Don't be shy! Send me a message to say hi.

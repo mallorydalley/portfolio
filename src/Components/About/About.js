@@ -9,7 +9,7 @@ function About(props){
           <div className="landing row d-flex justify-content-center">
             <div className="headline col-lg-6">
               <div className="headline-text">
-                <h1 className="hello">About</h1>
+                <h1 className="header-text">About</h1>
                 <p>
                   Here's some more details about me
                 </p>

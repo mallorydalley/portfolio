@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-evenly;
 }
-.hello{
+.header-text{
     font-weight: 800;
     font-size: 280px;
     color: rgb(235, 235, 235);

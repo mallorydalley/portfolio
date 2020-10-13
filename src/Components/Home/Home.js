@@ -10,7 +10,7 @@ function Home(props){
           {/* <div className="landing"> */}
             <div className="col-md-6">
               <div className="headline-text">
-                <h1 className="hello">Hello!</h1>
+                <h1 className="header-text">Hello!</h1>
                 <h3 className="mallory-dalley">I'm Mallory Dalley</h3>
               </div>
               <h5>
@@ -35,7 +35,7 @@ function Home(props){
             I started my career as a marketing generalist but gravitated
             towards website and design work. I now focus on web
             development but my dream job would be combining all three of the
-            fields I love. If you'd like more details on more experience, check out my LinkedIn page.
+            fields I love. If you'd like more details on my experience, check out my LinkedIn page.
             </p>
         </div>
 
