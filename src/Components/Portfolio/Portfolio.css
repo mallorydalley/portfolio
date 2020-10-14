@@ -11,8 +11,8 @@
     /* flex-direction: row; */
 }
 .portfolio-thumbnail{
-    height: 250px;
-    width: 350px;
+    height: 300px;
+    width: 450px;
     border: 1px solid coral;
     margin: 7%;
     object-fit: cover;
@@ -23,6 +23,16 @@
 
 .portfolio-thumbnail:hover{
     background-color: red;
+    z-index: 2;
+}
+
+.rounded{
+    border-radius: 15px;
+    background-color: aliceblue;
+    /* background-color: white; */
+    flex-direction: column;
+    padding: 15px;
+    position: absolute;
     z-index: 2;
 }
 

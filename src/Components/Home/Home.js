@@ -35,14 +35,14 @@ function Home(props){
             I started my career as a marketing generalist but gravitated
             towards website and design work. I now focus on web
             development but my dream job would be combining all three of the
-            fields I love. If you'd like more details on my experience, check out my LinkedIn page.
+            fields I love. If you'd like more details on my experience, check out  <a target="_blank" href="https://www.linkedin.com/in/mallory-dalley/">my LinkedIn page</a>.
             </p>
         </div>
 
         <div className="colored-background"></div>
   
 
-        <div className="container-fluid rounded skill-container">
+        <div className="container-fluid skill-container">
           <div className="row skill-block">
             <div className="col-md-4 container skills marketing-skills d-flex align-items-center text-center">
               <img
@@ -131,8 +131,10 @@ function Home(props){
               <br />
               <h6 className="skill-section">Design Tools</h6>
               <p>
-                Photoshop
+                Adobe Creative Suite
+                <br /> Photoshop
                 <br /> Illustrator
+                <br /> Lucidchart
                 <br /> Canva
               </p>
             </div>

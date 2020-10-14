@@ -32,15 +32,16 @@ function Portfolio(props) {
         <div className="colored-background"></div>
 
 
-        <div className="container-fluid rounded skill-container">
+        <div className="container-fluid skill-container">
+
+
           <div className="row skill-block">
-            <div className="col-md-6 container skills marketing-skills d-flex align-items-center text-center">
-              <img className="portfolio-thumbnail" src={TaskBox} />
-              
+            <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
+              <img className="portfolio-thumbnail" src={TaskBox} />  
             </div>
-            <div className="col-md-6 container skills marketing-skills d-flex align-items-center text-center">
+            <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
               <h4 className="section-head">TaskBox</h4>
-              <p>Project Management Tool</p>
+              <p>Project management tool that allows a user to create tasks, update the status, assign a person, organize in folders, and has a chat feature. </p>
               <br />
               <h6 className="skill-section">Code Technologies Used</h6>
               <p>
@@ -52,11 +53,50 @@ function Portfolio(props) {
                 <br /> Nodemailer
               </p>
             </div>
-
-           
-
-            
           </div>
+
+
+          <div className="row skill-block">
+            <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
+              <img className="portfolio-thumbnail" src={FlashDrills} />
+            </div>
+            <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
+              <h4 className="section-head">Flash Drills</h4>
+              <p>Full stack app created with a team that allows you to build a deck of flashcards, edit, study, delete, and search. When studying, rate a card from 1-5 indicating how well you know the card. Those rated lower will show up more often.</p>
+              <br />
+              <h6 className="skill-section">Code Technologies Used</h6>
+              <p>
+                React.js
+                <br /> Node.js
+                <br /> PostgreSQL
+                <br /> GitHub
+                <br /> Material-UI
+                <br /> Jest
+              </p>
+            </div>
+          </div>
+
+
+          <div className="row skill-block">
+            <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
+              <img className="portfolio-thumbnail" src={TaskBox} />
+            </div>
+            <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
+              <h4 className="section-head">Cooking with Collin</h4>
+              <p>A play off Binging with Babish, Cooking with Collin is a recipe app that allows you to search for and save recipes. Sort of like Pinterest.</p>
+              <br />
+              <h6 className="skill-section">Code Technologies Used</h6>
+              <p>
+                React.js
+                <br /> Node.js
+                <br /> CSS3
+                <br /> RESTful API
+                <br /> Express.js
+              </p>
+            </div>
+          </div>
+
+
         </div>
 
 

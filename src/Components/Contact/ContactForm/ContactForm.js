@@ -10,7 +10,7 @@ function ContactForm(props) {
           <div class="row">
             <div class="col-lg-8">
               <div class="card-body form">
-                <h3 class="mt-4">Let's be friends...</h3>
+                <h3 class="mt-4">Let's chat...</h3>
 
                 <div class="row">
                   <div class="col-md-12">
