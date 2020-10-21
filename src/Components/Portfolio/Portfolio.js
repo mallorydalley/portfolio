@@ -2,8 +2,15 @@ import React, {useState, useEffect} from 'react';
 import './Portfolio.css'
 import TaskBox from '../../assets/images/TaskBox.png'
 import FlashDrills from '../../assets/images/flashDrills.jpeg'
+import Slider from './Slider/Slider'
 
 function Portfolio(props) {
+  const images = [
+    'https://images.unsplash.com/photo-1449034446853-66c86144b0ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80',
+    'https://images.unsplash.com/photo-1470341223622-1019832be824?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2288&q=80',
+    'https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2094&q=80',
+    'https://images.unsplash.com/photo-1534161308652-fdfcf10f62c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2174&q=80'
+  ]
 
     return (
       <div>
@@ -34,6 +41,23 @@ function Portfolio(props) {
 
         <div className="container-fluid skill-container">
 
+
+          <div className="row skill-block">
+            <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
+              <img className="portfolio-thumbnail" src={TaskBox} />
+            </div>
+            <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
+              <h4 className="section-head">Luciano Pesci</h4>
+              <p>Author Luciano Pesci's website for his book series, Subsumption. If you love sci-fi and aliens check it out at lucianopesci.com</p>
+              <br />
+              <h6 className="skill-section">Code Technologies Used</h6>
+              <p>
+                WordPress
+                <br /> CSS
+                <br /> HTML
+              </p>
+            </div>
+          </div>
 
           <div className="row skill-block">
             <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
@@ -100,33 +124,8 @@ function Portfolio(props) {
         </div>
 
 
-        <div className="thumbnail-collection container-fluid">
-          <div className='row portfolio-row'>
-            <div className='col-md-6'>
-              <img className="portfolio-thumbnail" src={TaskBox} />
-            </div>
-            <div className='col-md-6'>
-              <p>TaskBox is a project management tool</p>
-            </div>
-
-          </div>
-
-
-            <div className='col-md-6'>
-              <img className="portfolio-thumbnail" src={FlashDrills} />
-            </div>
-
-            <div className='col-md-6'>
-              <img className="portfolio-thumbnail" src={FlashDrills} />
-            </div>
-
-            <div className='col-md-6'>
-              <img className="portfolio-thumbnail" src={FlashDrills} />
-            </div>
-              
-          
-        </div>
-
+        
+  <Slider slides={images}/>
       </div>
     );
 }

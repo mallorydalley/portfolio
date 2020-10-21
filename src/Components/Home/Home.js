@@ -134,8 +134,9 @@ function Home(props){
                 Adobe Creative Suite
                 <br /> Photoshop
                 <br /> Illustrator
-                <br /> Lucidchart
                 <br /> Canva
+                <br /> Lucidchart
+                <br /> Balsamiq
               </p>
             </div>
           </div>
