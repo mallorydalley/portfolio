@@ -53,28 +53,30 @@ const Slider = (props) => {
   };
 
   return (
-    <div css={SliderCSS}>
-      <SliderContent
-        translate={translate}
-        transition={transition}
-        width={getWidth() * props.slides.length}
-      >
-        {props.slides.map((slide, i) => (
-          <Slide key={slide + i} content={slide} />
-        ))}
-      </SliderContent>
+    <div className="container">
+      <div css={SliderCSS}>
+        <SliderContent
+          translate={translate}
+          transition={transition}
+          width={getWidth() * props.slides.length}
+        >
+          {props.slides.map((slide, i) => (
+            <Slide key={slide + i} content={slide} />
+          ))}
+        </SliderContent>
 
-      <Arrow direction="left" handleClick={prevSlide} />
-      <Arrow direction="right" handleClick={nextSlide} />
+        <Arrow direction="left" handleClick={prevSlide} />
+        <Arrow direction="right" handleClick={nextSlide} />
 
-      <Dots slides={props.slides} activeIndex={activeIndex} />
+        <Dots slides={props.slides} activeIndex={activeIndex} />
+      </div>
     </div>
   );
 };
 
 const SliderCSS = css`
   position: relative;
-  height: 80vh;
+  height: 50vh;
   width: 80vw;
   margin: 0 auto;
   overflow: hidden;

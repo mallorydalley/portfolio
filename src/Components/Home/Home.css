@@ -22,8 +22,6 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     /* background-color: azure; */
-
  }
 
 .profile-pic{
@@ -98,8 +96,9 @@ p{
 }
 
 .dummy{
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
+    margin: 6% 0;
 }
 
 .marketing-skills{
@@ -118,6 +117,23 @@ p{
 }
 
 @media screen and (max-width: 766px){
+    .header-text{
+        font-size: 40px;
+    }
+    .mallory-dalley{
+    font-weight: 500;
+    font-size: 26px;
+ }
+
+ .picture-side{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+.profile-pic{
+    height: 200px;
+}
     .marketing-skills{
     border-radius: 15px 15px 0px 0px;
 }
@@ -136,6 +152,6 @@ p{
 }
 .intro{
     padding-top: 35%;
-    font-size: 20px;
+    font-size: 22px;
 }
 }
