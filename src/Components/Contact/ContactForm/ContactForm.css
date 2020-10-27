@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.fab{
+    color: #5ec4d2;
+}
+
 .contact-btn{
     width: 100px;
 }

@@ -1,6 +1,6 @@
 
 .landing{
-    padding: 3% 5%;
+    padding: 5% 5%;
     /* background-color: plum; */
     font-family: Montserrat;
     /* height: 80%; */
@@ -26,12 +26,14 @@
 
 .profile-pic{
     height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .colored-background{
     background-color: #5ec4d2;
     z-index: 1;
-    height: 350px;
+    height: 250px;
     width: 100%;
     position: absolute;
 }
@@ -39,14 +41,13 @@
 .intro-container{
     background-color: #5ec4d2;
     width: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;  
 }
 
 .intro{
-    padding: 10% 15%;
+    padding: 5% 15%;
     text-align: center;
     font-size: 25px;
     color: white;
@@ -97,7 +98,7 @@ p{
 
 .dummy{
     height: 90px;
-    width: 90px;
+    /* width: 90px; */
     margin: 6% 0;
 }
 
@@ -109,6 +110,8 @@ p{
 .web-skills{
     border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
+    /* border-top: 0;
+    border-bottom: 0; */
 }
 
 .designer-skills{
@@ -116,42 +119,58 @@ p{
     border: 2px solid lightgray;
 }
 
+.gray-section{
+    background-color: #f8f9fa;
+    margin: 8% 0;
+    padding: 1% 0;
+}
+
 @media screen and (max-width: 766px){
     .header-text{
-        font-size: 40px;
+        font-size: 140px;
+        text-align: center;
     }
     .mallory-dalley{
-    font-weight: 500;
-    font-size: 26px;
- }
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+    h5{
+        font-size: 66px;
+        text-align: center;
+    }
 
- .picture-side{
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
+    .picture-side{
+        margin: 7% 0;
+    }
 
-.profile-pic{
-    height: 200px;
-}
+    .profile-pic{
+        height: 200px;
+    }
     .marketing-skills{
-    border-radius: 15px 15px 0px 0px;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .web-skills{
+        border-right: 2px solid lightgray;
+        border-left: 2px solid lightgray;
+    }
+    .designer-skills{
+        border-radius: 0px 0px 15px 15px;
+    }
+    .skill-block{
+        padding: 15% 30px 35%;
+    }
+    .colored-background{
+        height: 400px;
+    }
+    .intro{
+        padding-top: 25%;
+        font-size: 22px;
+    }
 }
-.web-skills{
-    border-right: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-}
-.designer-skills{
-    border-radius: 0px 0px 15px 15px;
-}
-.skill-block{
-    padding: 25% 30px 35%;
-}
-.colored-background{
-    height: 800px;
-}
-.intro{
-    padding-top: 35%;
-    font-size: 22px;
-}
+
+@media screen and (max-width: 400px){
+    .header-text{
+        font-size: 100px;
+    }
 }

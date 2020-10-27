@@ -98,7 +98,7 @@ function ContactForm(props) {
                   </li>
                   <li>
                     <p>
-                      <i class="fas fa-phone pr-2"></i>+ 01 (385)-210-8134
+                      <i class="fas fa-phone pr-2"></i>(385)-210-8134
                     </p>
                   </li>
                   <li>

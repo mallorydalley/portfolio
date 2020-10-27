@@ -12,6 +12,12 @@ function Portfolio(props) {
     'https://images.unsplash.com/photo-1534161308652-fdfcf10f62c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2174&q=80'
   ]
 
+  const images2 = [
+    "https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2019/02/dog-451643.jpg?h=bf654dbc&itok=MQGvBmuo",
+    "https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d",
+    "https://www.washingtonpost.com/resizer/uwlkeOwC_3JqSUXeH8ZP81cHx3I=/arc-anglerfish-washpost-prod-washpost/public/HB4AT3D3IMI6TMPTWIZ74WAR54.jpg"
+  ];
+
     return (
       <div>
         <div className="landing container-fluid">
@@ -132,7 +138,9 @@ function Portfolio(props) {
           </div>
         </div>
 
-        <div className="row">
+        <Slider slides={images2}/>
+
+        <div className="row container">
           <Slider slides={images} />
         </div>
         <div className="col-md-6 container skills d-flex align-items-center text-center rounded">
