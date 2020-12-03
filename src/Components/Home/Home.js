@@ -160,7 +160,7 @@ function Home(props){
                 <br /> Illustrator
                 <br /> Canva
                 <br /> Lucidchart
-                <br /> Balsamiq
+                <br /> Mockplus
               </p>
             </div>
           </div>
